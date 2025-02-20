@@ -8,7 +8,7 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/favicon.png"
+      "favicon": "~/assets/expo_starter/favicon.png"
     },
     "plugins": ["expo-router"],
     "experiments": {
@@ -16,14 +16,14 @@
 
       "tsconfigPaths": true
     },
-
+    "newArchEnabled": true,
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "~/assets/expo_starter/icon.png",
 
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
 
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "~/assets/expo_starter/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -33,7 +33,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "~/assets/expo_starter/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     }
