@@ -1,0 +1,38 @@
+[
+  {
+    "updates_and_events": [
+      {
+        "id": 1,
+        "title": "Mutya Hong Butuan 2025 Screening Update",
+        "date": "Today",
+        "description": "The local government of Butuan has announced that there will be no screening for Mutya Hong Butuan 2025 today. The next screening is scheduled for next Saturday, March 1.",
+        "image_url": "~/assets/images/events/mutya.jpg",
+        "details_url": "https://example.com/events/mutya-hong-butuan-2025-screening-update"
+      },
+      {
+        "id": 2,
+        "title": "POSITIVITY 5: Uplifting Expressions, Celebrating Positivity in Arts",
+        "date": "February 21, 2025 - March 21, 2025",
+        "description": "In celebration of National Arts Month, a group of talented visual artists is coming together to showcase their creativity and passion through POSITIVITY 5. Join us for the grand opening on February 21, 2025, at 2:00 PM at The Event Center, SM City Butuan. The exhibit will run until March 21, 2025.",
+        "image_url": "~/assets/images/events/arts.jpg",
+        "details_url": "https://example.com/events/positivity-5-exhibit"
+      },
+      {
+        "id": 3,
+        "title": "Tourism AVP Competition Winners",
+        "date": "Announcement Date",
+        "description": "Congratulations to the winners of the Tourism AVP Competition! Champion: BoomVisuals, Finalists: Team 8600 & FilmTrio, Consolation Prizes: TPR, Metanoia Creators, Ma. Mae Bokingo. Your creative storytelling and cinematic skills truly showcased the beauty of tourism!",
+        "image_url": "~/assets/images/events/avp.jpg",
+        "details_url": "https://example.com/events/tourism-avp-competition-winners"
+      },
+      {
+        "id": 4,
+        "title": "Tourism Photo Competition Winners",
+        "date": "Announcement Date",
+        "description": "Congratulations to the winners of the Tourism Photo Competition! Champion: Ian Geovan C. Segovia, Finalists: Ian Geovan C. Segovia & Stephen Dabi Cuartero, Consolation Prizes: Esteven Ordoña, Michael S. Licup, Dennis Jose R. Malazarte, Stephen Tulin, Ronel Trujello. Your amazing shots truly captured the beauty and spirit of tourism!",
+        "image_url": "~/assets/images/events/photo.jpg",
+        "details_url": "https://example.com/events/tourism-photo-competition-winners"
+      }
+    ]
+  }
+]

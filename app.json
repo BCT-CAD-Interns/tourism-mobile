@@ -18,7 +18,7 @@
     },
     "newArchEnabled": true,
     "orientation": "portrait",
-    "icon": "~/assets/expo_starter/icon.png",
+    "icon": "~/assets/icon.png",
 
     "userInterfaceStyle": "dark",
 

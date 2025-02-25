@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1",
+    "name": "Agusan River",
+    "description": "The third longest and most navigable river in the Philippines, known as 'Saugan' in Butuanon. It has a high overflow of water and is derived from the Visayan word 'agus,' meaning 'where the water flows.'",
+    "images": "agusan-river.jpg",
+    "location": "Traversing Agusan del Norte and Agusan del Sur, Mindanao, Philippines"
+  },
+  {
+    "id": "2",
+    "name": "Butuan Boat 4 & 9 Excavation Site",
+    "description": "Discovered in 2012, this site features Butuan Boats 4 and 9. Butuan Boat 9, nicknamed 'Mother Balangay,' is twice as large as earlier boats. The site is being developed as an archaeological park, with artifacts preserved in situ.",
+    "images": "butuan-boat.jpg",
+    "location": "Ambangan, Libertad, Butuan City, Philippines"
+  },
+  {
+    "id": "3",
+    "name": "Balangays or Butuan Boats",
+    "description": "Declared National Cultural Treasures in 1987, these are the oldest archaeological evidence of watercraft in the Philippines. Dating back to the 8th-10th century, they were built using the shell-first technique and played a significant role in maritime trade.",
+    "images": "balanghai.jpg",
+    "location": "Butuan City, Philippines"
+  },
+  {
+    "id": "4",
+    "name": "Magellan's Anchorage",
+    "description": "The site where Ferdinand Magellan's fleet anchored near Mazaua Island. It is where the first Mass in the Philippines was held and a cross was planted. A memorial marks the site, and Masao is now a popular coastal beach.",
+    "images": "magellan.jpg",
+    "location": "Masao, Butuan City, Philippines"
+  },
+  {
+    "id": "5",
+    "name": "Butuan Boat Site Museum",
+    "description": "Highlights the remains of Butuan Boat 1, excavated in 1976. The museum also displays photographs of excavations, wooden coffins, skeletal remains, and a 14th-15th century burial site.",
+    "images": "libertad-museum.jpeg",
+    "location": "Libertad, Butuan City, Philippines"
+  },
+  {
+    "id": "6",
+    "name": "Masawa Hong Butuan",
+    "description": "A reproduction of an ancient balangay boat built in 2009 using traditional techniques. It sailed across Southeast Asia, retracing ancient trade routes, and proved to be seaworthy.",
+    "images": "masawa-hong.jpg",
+    "location": "Butuan City, Philippines"
+  },
+  {
+    "id": "7",
+    "name": "Būd Promontory and Eco Park",
+    "description": "A commemoration site of the first planting of the cross by Magellan's crew after the first Mass. It overlooks the Masao River and was once a trading center for Chinese and Southeast Asian traders.",
+    "images": "bud.webp",
+    "location": "Brgy. Pinamanculan, Butuan City, Philippines"
+  },
+  {
+    "id": "8",
+    "name": "San Jose de Banza Church Ruins",
+    "description": "The ruins of the first Catholic church in Mindanao, consecrated in 1597. Burned by Moro pirates in 1753, it was rebuilt but fell into disuse after the town center was relocated in 1865.",
+    "images": "banza-church.jpg",
+    "location": "Banza, Butuan City, Philippines"
+  },
+  {
+    "id": "9",
+    "name": "Butuan National Museum",
+    "description": "A regional museum with galleries on Archaeology, Ethnology, and Fine Arts. It showcases artifacts proving Butuan's pre-colonial maritime tradition and its role as a trading center in the 9th-15th centuries.",
+    "images": "national-museum.jpg",
+    "location": "Montilla Blvd., Butuan City, Philippines"
+  },
+  {
+    "id": "10",
+    "name": "Guingona Park",
+    "description": "A historic park with century-old Acacia trees. It features a National Shrine of the Philippine Flag in Mindanao and a Rizal monument by Garcia Velarde, qualifying as an Important Cultural Property.",
+    "images": "guingona-park.jpg",
+    "location": "Guingona Street, Butuan City, Philippines"
+  },
+  {
+    "id": "11",
+    "name": "Balangay Dig Site",
+    "description": "The site where 11 balangay boats were discovered in the 1970s. Excavations in 2012 revealed 'The Mother Balangay,' a massive boat estimated to be 800 years old, potentially rewriting Philippine maritime history.",
+    "images": "balanghai.jpg",
+    "location": "Ambangan, Libertad, Butuan City, Philippines"
+  }
+]

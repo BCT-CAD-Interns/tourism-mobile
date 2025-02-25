@@ -10,7 +10,8 @@ module.exports = {
         yellow_orange: '#FEC107',
       },
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
+        poppins: ['Poppins-Regular', 'Poppins-Medium', 'Poppins-Bold'],
+        prompt: ['Prompt-Regular', 'Prompt-Medium', 'Prompt-Bold'],
       },
     },
   },

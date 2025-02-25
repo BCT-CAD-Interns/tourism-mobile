@@ -11,12 +11,12 @@ export const Button = forwardRef<View, ButtonProps>(({ title, ...touchableProps 
       ref={ref}
       {...touchableProps}
       className={`${styles.button} ${touchableProps.className}`}>
-      <Text className={styles.buttonText}>{title}</Text>
+      <Text className="font-poppins text-lg font-bold text-black">{title}</Text>
     </TouchableOpacity>
   );
 });
 
 const styles = {
-  button: 'items-center bg-yellow_orange rounded-xl shadow-md py-1 ',
+  button: 'items-center rounded-xl shadow-md h-10 w-40 justify-center',
   buttonText: 'font-Poppins text-lg  text-center',
 };
