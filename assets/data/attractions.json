@@ -4,14 +4,14 @@
     "name": "Agusan River",
     "description": "The third longest and most navigable river in the Philippines, known as 'Saugan' in Butuanon. It has a high overflow of water and is derived from the Visayan word 'agus,' meaning 'where the water flows.'",
     "images": "agusan-river.jpg",
-    "location": "Traversing Agusan del Norte and Agusan del Sur, Mindanao, Philippines"
+    "location": "Agusan del Norte, Philippines"
   },
   {
     "id": "2",
     "name": "Butuan Boat 4 & 9 Excavation Site",
     "description": "Discovered in 2012, this site features Butuan Boats 4 and 9. Butuan Boat 9, nicknamed 'Mother Balangay,' is twice as large as earlier boats. The site is being developed as an archaeological park, with artifacts preserved in situ.",
     "images": "butuan-boat.jpg",
-    "location": "Ambangan, Libertad, Butuan City, Philippines"
+    "location": "Ambangan, Libertad, Butuan City"
   },
   {
     "id": "3",
@@ -46,7 +46,7 @@
     "name": "Būd Promontory and Eco Park",
     "description": "A commemoration site of the first planting of the cross by Magellan's crew after the first Mass. It overlooks the Masao River and was once a trading center for Chinese and Southeast Asian traders.",
     "images": "bud.webp",
-    "location": "Brgy. Pinamanculan, Butuan City, Philippines"
+    "location": "Brgy. Pinamanculan, Butuan City"
   },
   {
     "id": "8",

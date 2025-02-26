@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity, ViewStyle } from 'react-native';
+import Pin from '~/assets/images/Maps/location pin-1.svg';
 
 type TouristSpotCardProps = {
   imageSource: any; // or ImageSourcePropType
@@ -28,9 +29,15 @@ export function TouristSpotCard({
         {/* Location */}
 
         {/* Title */}
-        <Text className="mt-1 font-poppins text-2xl  text-navy_blue ">{title}</Text>
-        <Text className="text-sm text-gray-500">{location}</Text>
-
+        <Text className="font-Poppins-Black mt-1 font-poppins  text-2xl text-navy_blue ">
+          {title}
+        </Text>
+        <View className="flex-row items-center">
+          <Pin className="h-8 w-8" fill={'#000'} />
+          <Text className="text-sm text-gray-500" ellipsizeMode="tail" numberOfLines={1}>
+            {location}
+          </Text>
+        </View>
         {/* Description */}
         <Text
           className="mt-2 truncate text-sm text-gray-600 "

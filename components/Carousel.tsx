@@ -25,6 +25,9 @@ export function CustomCarousel({ items }: { items: CarouselItem[] }) {
       data={items}
       defaultIndex={0}
       scrollAnimationDuration={500}
+      autoPlay={true}
+      autoPlayInterval={3000}
+      autoPlayReverse={true}
       mode="parallax"
       modeConfig={{
         parallaxScrollingScale: 0.9,
@@ -38,6 +41,7 @@ export function CustomCarousel({ items }: { items: CarouselItem[] }) {
           description={item.description}
           style={{
             width: CARD_WIDTH - 20,
+            height: CARD_WIDTH * 1.25,
             marginHorizontal: CARD_OFFSET,
             boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
           }}

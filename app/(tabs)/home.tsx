@@ -59,7 +59,7 @@ export default function Home() {
         </View>
         {/* Events Section */}
         <View className="   bg-white" />
-
+    
         <Events />
       </ScrollView>
     </Container>

@@ -1,24 +1,36 @@
-import { View, Text, Pressable } from 'react-native';
-import { Container } from './Container';
+import React from 'react';
+import { View, Text, ScrollView, Pressable } from 'react-native';
+import EventCard from './EventCard';
+import { loadEvents } from '~/assets/data/loadEvents';
+import { router } from 'expo-router';
 import Football from '~/assets/images/UI/American Football.svg';
-import PressableText from './PressableText';
 export default function Events() {
+  const events = loadEvents();
+
   return (
-    <Container>
-      <View className="h-full justify-center  bg-white ">
-        <View className="h-2/3 " />
-        <View className="h-[600px]">
-          <View className="flex-row justify-between px-4">
-            <View className="flex-row items-center gap-2">
-              <Football fill={'#000'} width={24} height={24} />
-              <Text className="font-poppins text-lg">Updates and Events</Text>
-            </View>
-            <Pressable className="justify-center">
-              <Text className="font-poppins text-lg font-bold text-navy_blue">View All</Text>
-            </Pressable>
-          </View>
+    <View className="my-48 px-4">
+      <View className="mt-5 flex-row justify-between">
+        <View className="flex-row items-center gap-2">
+          <Football fill={'#000'} className="h-6 w-6" />
+          <Text className="font-poppins text-lg font-bold text-gray-800">Latest Updates</Text>
         </View>
+        <Pressable onPress={() => router.push('/events')}>
+          <Text className="text-md font-poppins font-bold text-navy_blue">View All</Text>
+        </Pressable>
       </View>
-    </Container>
+      <ScrollView showsHorizontalScrollIndicator={false} className="mt-4">
+        {events.map((event) => (
+          <EventCard
+            key={event.id}
+            imageSource={event.imageSource}
+            title={event.title}
+            date={event.date}
+            description={event.description}
+            style={{}}
+            onPress={() => console.log('Navigate to', event.detailsUrl)}
+          />
+        ))}
+      </ScrollView>
+    </View>
   );
 }
