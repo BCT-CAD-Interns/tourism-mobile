@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "title": "Best time to Visit",
+        "description": "The best time to visit Butuan is during the dry season, which typically runs from March to August. This is ideal for exploring outdoor attractions and enjoying festivals without the hassle of rain. However, visiting during the Balangay Festival in May and joining the Adlaw Hong Butuan on August offers a vibrant cultural experience.",
+        "images": "best-time-to-travel.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Getting Around",
+        "description": "Butuan City is best explored by tricycle, which is a convenient and affordable mode of transportation within the city. You can also hire motorbike taxis or rent a car if you prefer more flexibility. For longer trips, buses and jeepneys are available to nearby destinations in Mindanao.",
+        "images": "getting-around.jpg"
+    },
+    {
+        "id": "3",
+        "title": "What to Wear",
+        "description": "Butuan has a tropical climate, so light, comfortable clothing is recommended. If you plan to explore natural attractions, bring comfortable shoes.",
+        "images": "what-to-wear.jpg"
+    },
+    {
+        "id": "4",
+        "title": "Local Currency",
+        "description": "The official currency is the Philippine Peso (PHP). ATMs are available throughout the city, but it's a good idea to have cash on hand, especially when visiting more remote areas.",
+        "images": "currency.jpg"
+    },
+    {
+        "id": "5",
+        "title": "Food and Water",
+        "description": "Be sure to try local delicacies such as the palagsing (suman made of unaw) and Buntaa (crabs stuffed with aligue and coconut and cooked in coconut milk). It is always a good idea to drink bottled water to avoid any stomach discomfort. Street food is popular, but make sure it looks fresh and clean to avoid food-related issues.",
+        "images": "food.jpeg"
+    },
+    {
+        "id": "6",
+        "title": "Local Etiquette",
+        "description": "Butuanons are known for their warm hospitality. When visiting local homes or businesses, a polite greeting such as “Madyaw nga Adlaw” (Good day) will be appreciated. Respect local customs and traditions, especially when visiting religious or cultural sites.",
+        "images": "etiquette.jpeg"
+    },
+    {
+        "id": "7",
+        "title": "Safety Tips",
+        "description": "Butuan is generally a safe city for tourists, but it’s always important to stay vigilant, especially when exploring unfamiliar areas. Avoid displaying valuables in public. Emergency numbers in Butuan City are the same across the country: 911 for emergencies.",
+        "images": "safety.jpg"
+    },
+    {
+        "id": "8",
+        "title": "Respect Nature",
+        "description": "Butuan is home to beautiful natural attractions, so please be mindful of the environment. Avoid littering and respect wildlife and protected areas, such as the Agusan River and nearby nature reserves.",
+        "images": "respect-nature.jpg"
+    },
+    {
+        "id": "9",
+        "title": "Language",
+        "description": "The primary language spoken in Butuan is Cebuano (Visayan), but Filipino and English are widely understood. Learning a few basic words in Cebuano, like salamat (thank you) or palihug (please), can go a long way.",
+        "images": "language.jpg"
+    },
+    {
+        "id": "10",
+        "title": "Plan your Itinerary",
+        "description": "Butuan has a lot to offer, from historical landmarks to natural attractions. Plan your visit by exploring Butuan’s museums, Balangay sites, and eco-tourism spots. If you're keen on a specific tour, consider booking a local guide for a more in-depth experience.",
+        "images": "itinerary.png"
+    }
+]
