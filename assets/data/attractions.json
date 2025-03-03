@@ -2,78 +2,122 @@
   {
     "id": "1",
     "name": "Agusan River",
-    "description": "The third longest and most navigable river in the Philippines, known as 'Saugan' in Butuanon. It has a high overflow of water and is derived from the Visayan word 'agus,' meaning 'where the water flows.'",
+    "description": "This is the third longest and most navigable river in the Philippines. While many rivers are drying up, this famous “Saugan” (the Butuanon word for river) of Agusan Valley has a very high overflow of water. “Agusan” is derived from the Visayan word “agus” which means “where the water flows”.  '",
     "images": "agusan-river.jpg",
-    "location": "Agusan del Norte, Philippines"
+    "location": "Agusan del Norte, Philippines",
+    "category": ["Culture and Heritage Landmark"],
+    "longitude": "7°26′35″N",
+    "latitude": "126°13′16″E",
+    "image-slide":["agusan-river_1.jpg", "agusan-river_2.jpg", "agusan-river_3.jpg"]
   },
   {
     "id": "2",
-    "name": "Butuan Boat 4 & 9 Excavation Site",
-    "description": "Discovered in 2012, this site features Butuan Boats 4 and 9. Butuan Boat 9, nicknamed 'Mother Balangay,' is twice as large as earlier boats. The site is being developed as an archaeological park, with artifacts preserved in situ.",
-    "images": "butuan-boat.jpg",
-    "location": "Ambangan, Libertad, Butuan City"
+    "name": "Balangays or Butuan Boats",
+    "description": "In 1987, President Corazon Aquino signed Proclamation 86 declaring the balangays as National Cultural Treasures (NCTs), and the sites where they were found, as archaeological sites. The Butuan Boats, popularly known as balangays, are the oldest archaeological evidence of watercraft in the Philippines. The radiocarbon 14 dating (carbon-14 dating) of the wood samples from Butuan Boat 1 shows that their calibrated range dates is 8th-10th century. They were made from a variety of trees, all available in the Philippine archipelago and the neighboring regions. Butuan Boats have wood belonging to Toog (Petersianthus quadrialatus), Shorea sp., Narig grp. (Vatica sp.), Narra, Manggachapui grp., Molave, Alupag grp, and Malugai (Pommetia pinnata) trees.  It was built following the shell-first technique, also known as the plank-built, edged-pegged boat-building method. The Butuan Boats were used for long-distance voyages to carry goods for exchange and goods acquired in return.  They played a significant role in the lives of our early settlers in the area, representing the nation’s rich maritime trading heritage.",
+    "images": "balanghai-boat.jpg",
+    "location": "Butuan City, Philippines",
+    "category": ["Culture and Heritage Landmark"],
+    "latitude": "",
+    "longitude": "",
+    "image-slide":["balanghai-boat_1.jpeg", "balanghai-boat_2.jpg"]
   },
   {
     "id": "3",
-    "name": "Balangays or Butuan Boats",
-    "description": "Declared National Cultural Treasures in 1987, these are the oldest archaeological evidence of watercraft in the Philippines. Dating back to the 8th-10th century, they were built using the shell-first technique and played a significant role in maritime trade.",
-    "images": "balanghai.jpg",
-    "location": "Butuan City, Philippines"
+    "name": "Magellan's Anchorage",
+    "description": "The fleet of Ferdinand Magellan anchored near an island that lit with a radiant quality of light and that island called Mazua (it is derived from the native word Masao). In Mazaua, the Butuanon brother kings attended the first Mass in the Philippines and the Magellan crew planted a cross on a hill. A memorial was built in Masao near the site where it represents the site that Magellan's fleet have mad an anchorage. Masao is also popular coastal beach where people go swim, eat and relax.",
+    "images": "magellans-anchorage.jpg",
+    "location": "Masao, Butuan City, Philippines",
+    "category": ["Culture and Heritage Landmark"],
+    "longitude":"8° 60' North",
+    "latitude": "125° 29' East",
+    "image-slide":["magellans-anchorage_1.jpg","magellans-anchorage_2.jpg","magellans-anchorage_3.jpg"]
   },
   {
     "id": "4",
-    "name": "Magellan's Anchorage",
-    "description": "The site where Ferdinand Magellan's fleet anchored near Mazaua Island. It is where the first Mass in the Philippines was held and a cross was planted. A memorial marks the site, and Masao is now a popular coastal beach.",
-    "images": "magellan.jpg",
-    "location": "Masao, Butuan City, Philippines"
+    "name": "Butuan Boat Site Museum",
+    "description": "The Butuan Boat Site Museum highlights the remains of the first Butuan Boat, also referred to as Butuan Boat 1. It is located on the actual site where the 1st Butuan Boat was excavated in 1976. The site also displays photographs of archaeological excavations during the 1970s and 1980s, wooden coffins, skeletal remains, and the 14th-15th century burial site. ",
+    "images": "libertad-museum.jpeg",
+    "location": "Libertad, Butuan City, Philippines",
+    "category":["Culture and Heritage Landmark"],
+    "longitude":"125°29′47″E",
+    "latitude":"8°57′15″N",
+    "image-slide":["libertad-museum_1.jpg","libertad-museum_2.jpg","libertad-museum_3.jpg", "libertad-museum_4.jpg"]
   },
   {
     "id": "5",
-    "name": "Butuan Boat Site Museum",
-    "description": "Highlights the remains of Butuan Boat 1, excavated in 1976. The museum also displays photographs of excavations, wooden coffins, skeletal remains, and a 14th-15th century burial site.",
-    "images": "libertad-museum.jpeg",
-    "location": "Libertad, Butuan City, Philippines"
+    "name": "Būd Promontory and Eco Park",
+    "description": "'Būd' which means hills in Butuanon language, is the commemoration site of the first planting of the cross by Ferdinand Magellan and his crew after celebrating the Mass on the afternoon of Easter Sunday March 31, 1521.A cross and memorial depicting the event have been erected on the site. On this hill that overlooks the Masao River, people had once observed the Butuan trading center, where traders from China and Southeast Asian kingdom brought their wares to barter gold and other produce.",
+    "images": "bud.webp",
+    "location": "Brgy. Pinamanculan, Butuan City, Philippines",
+    "category":["Culture and Heritage Landmark", "Adventure & Eco Tourism"],
+    "longitude":"125°29′34″E",
+    "latitude":"8°57′7″N",
+    "image-slide":["bud_1.jpg", "bud_2.jpg", "bud_3.jpg", "bud_4.jpg", "bud_5.jpg"]
   },
   {
     "id": "6",
-    "name": "Masawa Hong Butuan",
-    "description": "A reproduction of an ancient balangay boat built in 2009 using traditional techniques. It sailed across Southeast Asia, retracing ancient trade routes, and proved to be seaworthy.",
-    "images": "masawa-hong.jpg",
-    "location": "Butuan City, Philippines"
+    "name": "San Jose de Banza Church Ruins",
+    "description": "Located beside the Agusan River, a huge Banyan Tree locally called 'Balete' now wraps a church post of this once beautiful stone church built by the Recollect Missionaries. The first Catholic Church in Mindanao was consecrated by a Jesuit Missionary Fr. Valerio de Ledesma on September 8, 1597. Burned to the ground by Moro Pirates in 1753, this old structure was rebuilt but fell into disuse due to transfer of the pueblo (town center) to Baug (Magallanes) in 1865.",
+    "images": "banza-church-ruins.jpg",
+    "location": "Banza, Butuan City, Philippines",
+    "category":["Culture and Heritage Landmark"],
+    "longitude":"125°32′20″E",
+    "latitude":"8°58′18″N",
+    "image-slide":["banza-church_1.jpg", "banza-church_2.jpg", "banza-church_3.jpg", "banza-church_4.jpg"]
   },
   {
     "id": "7",
-    "name": "Būd Promontory and Eco Park",
-    "description": "A commemoration site of the first planting of the cross by Magellan's crew after the first Mass. It overlooks the Masao River and was once a trading center for Chinese and Southeast Asian traders.",
-    "images": "bud.webp",
-    "location": "Brgy. Pinamanculan, Butuan City"
+    "name": "Butuan National Museum",
+    "description": "The Museum is one of the regional museums of the National Museum of the Philippines. It has three exhibit galleries on Archaeology, Ethnology, and Fine Arts at the moment. Highlighted here are unique and significant artifacts accidentally discovered in the 1970s that strongly prove Butuan’s pre-colonial maritime tradition and its early trade with China and other Southeast Asian countries. Butuan is considered a transit port and trading center in Mindanao during the proto-historic period (9th-15th Centuries C.E.).",
+    "images": "national-museum.jpg",
+    "location": "Montilla Blvd., Butuan City, Philippines",
+    "category":["Culture and Heritage Landmark"],
+    "longitude":"125°31′39″E",
+    "latitude":"8°57′10″N",
+    "image-slide":["national-museum_1.jpg", "national-museum_2.jpg", "national-museum_3.jpg", "national-museum_4.jpg", "national-museum_5.jpg"]
   },
   {
     "id": "8",
-    "name": "San Jose de Banza Church Ruins",
-    "description": "The ruins of the first Catholic church in Mindanao, consecrated in 1597. Burned by Moro pirates in 1753, it was rebuilt but fell into disuse after the town center was relocated in 1865.",
-    "images": "banza-church.jpg",
-    "location": "Banza, Butuan City, Philippines"
+    "name": "Guingona Park",
+    "description": "Guingona Park is located at what has been the public square or “plaza” of Butuan for many years. It is home to three large Acacia trees that are more than a century old. On its grounds is a National Shrine of the Philippine Flag in Mindanao to commemorate the first formal raising of the Philippine flag in Mindanao on January 17, 1899. The Rizal monument was done by the famous Filipino sculpture, Garcia Velarde, in 1935, and this qualifies to be an Important Cultural Property under the Cultural Heritage Act of 2009.",
+    "images": "guingona-park.jpg",
+    "location": "Guingona Street, Butuan City, Philippines",
+    "category":["Culture and Heritage Landmark", "Adventure & Eco Tourism"],
+    "longitude":"125°32′36″E",
+    "latitude":"8°56′52″N",
+    "image-slide":["guingona-park_1.jpg", "guingona-park_2.jpg", "guingona-park_3.jpg", "guingona-park_4.png"]
   },
   {
     "id": "9",
-    "name": "Butuan National Museum",
-    "description": "A regional museum with galleries on Archaeology, Ethnology, and Fine Arts. It showcases artifacts proving Butuan's pre-colonial maritime tradition and its role as a trading center in the 9th-15th centuries.",
-    "images": "national-museum.jpg",
-    "location": "Montilla Blvd., Butuan City, Philippines"
+    "name": "Balangay Dig Site",
+    "description": "This is the site where Butuan Boats 4 and 9 were discovered in 2012 by the National Museum of the Philippines’ archaeologists. One of the major observations of the archaeologists during the excavation is the large boats’ dowels with a diameter of approximately 2 inches and wider planks suggesting a larger-sized boat. Butuan Boat 9 is twice as big as most of the earlier boats excavated including Butuan Boat 4. Butuan Boat 9 is nicknamed the “Mother Balangay” for its sheer size. The artifacts are conserved in situ or are being preserved within the site which is being developed as an archaeological park.",
+    "images": "butuan_dig_site.png",
+    "location": "Ambangan, Libertad, Butuan City, Philippines",
+    "category":["Culture and Heritage Landmark"],
+    "longitude": "8.9562° N",
+    "latitude": "125.5011° E",
+    "image-slide":["butuan-dig-site_1.jpg", "butuan-dig-site_2.jpg"]
   },
   {
     "id": "10",
-    "name": "Guingona Park",
-    "description": "A historic park with century-old Acacia trees. It features a National Shrine of the Philippine Flag in Mindanao and a Rizal monument by Garcia Velarde, qualifying as an Important Cultural Property.",
-    "images": "guingona-park.jpg",
-    "location": "Guingona Street, Butuan City, Philippines"
+    "name":"Delta Dicovery Park",
+    "description":"Delta Discovery Park in Butuan City, Agusan Del Norte, is a serene retreat for nature lovers. Surrounded by lush greenery, it offers scenic walking trails, picnic spots, and a peaceful escape from city life. The park’s diverse flora and fauna create a picturesque setting, perfect for relaxation and photography. A highlight is its unique green-colored natural spring, adding to the tranquil ambiance. Whether you're a local or a tourist, Delta Discovery Park is a must-visit destination for a refreshing nature experience.",
+    "images":"delta-park.jpg",
+    "location":"Bonbon, Butuan City",
+    "category":["Adventure & Eco Tourism"],
+    "longitude":"125°30′17″E",
+    "latitude":"8°54′19″N",
+    "image-slide":["delta-park_1.jpg", "delta-park_2.jpg", "delta-park_3.jpg", "delta-park_4.jpg", "delta-park_5.jpg"]
   },
   {
-    "id": "11",
-    "name": "Balangay Dig Site",
-    "description": "The site where 11 balangay boats were discovered in the 1970s. Excavations in 2012 revealed 'The Mother Balangay,' a massive boat estimated to be 800 years old, potentially rewriting Philippine maritime history.",
-    "images": "balanghai.jpg",
-    "location": "Ambangan, Libertad, Butuan City, Philippines"
+    "id":"11",
+    "name": "Malalag Ridge",
+    "description":"Malalag Ridge in Agusan Del Norte is a hidden gem for nature lovers and outdoor enthusiasts. This scenic campground offers breathtaking views, lush greenery, and a tranquil escape from city life. Ideal for camping and hiking, it provides cozy bonfire spots and trails leading to stunning viewpoints. Whether for solo retreats or group gatherings, Malalag Ridge promises adventure, relaxation, and unforgettable memories amidst nature’s beauty.",
+    "images":"malalag-ridge.jpg",
+    "location":"Libertad, Butuan City, Philippines",
+    "category":["Adventure & Eco Tourism"],
+    "longitude":"125°31′39″E",
+    "latitude":"8°56′52″N",
+    "image-slide":["malalag-ridge_1.jpg", "malalag-ridge_2.jpg", "malalag-ridge_3.jpg", "malalag-ridge_4.jpg", "malalag-ridge_5.jpg", "malalag-ridge_6.jpg", "malalag-ridge_7.jpg"]
   }
 ]
