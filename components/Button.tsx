@@ -11,7 +11,7 @@ export const Button = forwardRef<View, ButtonProps>(({ title, ...touchableProps 
       ref={ref}
       {...touchableProps}
       className={`${styles.button} ${touchableProps.className}`}>
-      <Text className="font-poppins text-lg font-bold text-black">{title}</Text>
+      <Text className="font-poppins text-lg font-bold text-white">{title}</Text>
     </TouchableOpacity>
   );
 });

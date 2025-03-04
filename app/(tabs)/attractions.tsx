@@ -1,70 +1,62 @@
 import React, { useState, useMemo } from 'react';
-import { View, Text, FlatList, Alert, TouchableOpacity } from 'react-native';
+import { View, Text, FlatList } from 'react-native';
 import { Container } from '~/components/Container';
 import { AttractionsCard } from '~/components/AttractionsCard';
 import { loadAttractions } from '~/assets/data/loadAttractions';
-import { CarouselItem } from '~/assets/data/loadAttractions';
+import { router } from 'expo-router';
+import CategoryDropdown from '~/components/CategoryDropdown';
 
 export default function Attractions() {
   const [sortMethod, setSortMethod] = useState<'default' | 'alphabetical'>('default');
-  const [showSortMenu, setShowSortMenu] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState<string>('All');
 
   // Load attractions data
   const allAttractions = loadAttractions();
 
-  // Sort attractions based on selected method
+  // Sort and filter attractions based on selected method and category
   const attractions = useMemo(() => {
-    if (sortMethod === 'alphabetical') {
-      return [...allAttractions].sort((a, b) => a.title.localeCompare(b.title));
+    let filteredAttractions = [...allAttractions];
+
+    // First apply category filtering
+    if (selectedCategory !== 'All') {
+      if (selectedCategory === 'A-Z') {
+        // Special case for A-Z, just sort alphabetically
+        filteredAttractions.sort((a, b) => a.title.localeCompare(b.title));
+      } else {
+        // Filter by category
+        filteredAttractions = filteredAttractions.filter(
+          (attraction) => attraction.category === selectedCategory
+        );
+      }
     }
-    return allAttractions;
-  }, [allAttractions, sortMethod]);
 
-  const handleAttractionPress = (id: string, title: string) => {
-    // You can replace this with navigation to a detail page in the future
-    Alert.alert(`Selected: ${title}`, 'View details for this attraction');
+    // Then apply sorting if needed
+    if (sortMethod === 'alphabetical') {
+      filteredAttractions.sort((a, b) => a.title.localeCompare(b.title));
+    }
+
+    return filteredAttractions;
+  }, [allAttractions, sortMethod, selectedCategory]);
+
+  const handleAttractionPress = (id: string) => {
+    router.push(`/attraction-details?id=${id}`);
   };
 
-  const toggleSortMenu = () => {
-    setShowSortMenu(!showSortMenu);
-  };
-
-  const applySorting = (method: 'default' | 'alphabetical') => {
-    setSortMethod(method);
-    setShowSortMenu(false);
+  const handleCategorySelect = (category: string) => {
+    setSelectedCategory(category);
   };
 
   return (
     <Container>
-      <View className="h-full px-4 py-6">
-        <Text className="mb-6 font-poppins text-4xl font-bold">Attractions</Text>
-
-        {/* Sorting Menu */}
-        <View className="mb-4">
-          <TouchableOpacity
-            onPress={toggleSortMenu}
-            className="flex-row items-center justify-between rounded-lg bg-gray-100 px-4 py-2">
-            <Text className="font-poppins font-medium">
-              Sort by: {sortMethod === 'alphabetical' ? 'A-Z Category' : 'Default'}
-            </Text>
-            <Text>▼</Text>
-          </TouchableOpacity>
-
-          {/* Dropdown Menu */}
-          {showSortMenu && (
-            <View className="absolute top-12 z-10 w-full rounded-lg bg-white shadow-md">
-              <TouchableOpacity
-                onPress={() => applySorting('default')}
-                className={`border-b border-gray-200 px-4 py-3 ${sortMethod === 'default' ? 'bg-gray-100' : ''}`}>
-                <Text className="font-poppins">Default</Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                onPress={() => applySorting('alphabetical')}
-                className={`px-4 py-3 ${sortMethod === 'alphabetical' ? 'bg-gray-100' : ''}`}>
-                <Text className="font-poppins">A-Z Category</Text>
-              </TouchableOpacity>
-            </View>
-          )}
+      <View className="h-full gap-2 px-4">
+        <View className="flex-row items-center justify-between">
+          <Text className="font-gotham-black text-4xl">Attractions</Text>
+          <View className="my-4 self-end">
+            <CategoryDropdown
+              onSelectCategory={handleCategorySelect}
+              selectedCategory={selectedCategory}
+            />
+          </View>
         </View>
 
         {attractions.length === 0 ? (
@@ -81,7 +73,7 @@ export default function Attractions() {
                 title={item.title}
                 location={item.location}
                 description={item.description}
-                onPress={() => handleAttractionPress(item.id, item.title)}
+                onPress={() => handleAttractionPress(item.id)}
                 style={{ marginBottom: 16 }}
               />
             )}

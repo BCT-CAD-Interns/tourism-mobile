@@ -26,8 +26,8 @@ const PressableText = forwardRef<View, PressableTextProps>(
         disabled={disabled}
         {...props}>
         <Text
-          className={`1underline  text-center  font-poppins  font-bold ${textClassName} ${
-            disabled ? 'text-teal' : isPressed || isFocused ? 'text-navy_blue' : 'text-white'
+          className={`1underline  font-gotham-black  text-center ${textClassName} ${
+            disabled ? 'text-teal' : isPressed || isFocused ? 'text-vividSkyBlue' : 'text-white'
           }`}>
           {children}
         </Text>

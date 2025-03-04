@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, ImageBackground, ScrollView, Pressable } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Container } from '~/components/Container';
-import Compass from '~/assets/images/Maps/Vector.svg';
+import Compass from '~/assets/images/Maps/Vector1.svg';
 import { loadAttractions } from '~/assets/data/loadAttractions';
 import { CustomCarousel } from '~/components/Carousel';
 import Events from '~/components/Events';
@@ -27,19 +27,15 @@ export default function Home() {
               end={{ x: 0, y: 1 }}
               className="absolute inset-0 h-full justify-start bg-black/40 pt-10">
               <View className="gap-2 px-10 py-5">
-                <View className="h-8 w-48 flex-row items-center justify-around gap-2 rounded-lg bg-navy_blue px-2">
-                  <Compass fill="#fff" width={18} height={18} />
-                  <Text className="text-md font-prompt font-bold text-white">
-                    Hello, adventurer!
-                  </Text>
+                <View className="bg-vividSkyBlue h-8 w-48 flex-row items-center justify-around gap-2 rounded-lg px-2">
+                  <Compass width={18} height={18} fill="#ffffff" />
+                  <Text className="text-md font-gotham-book  text-white">Hello, adventurer!</Text>
                 </View>
                 <View className="justify-center gap-2">
-                  <Text className="font-poppins text-5xl font-bold text-white">Welcome</Text>
+                  <Text className="font-gotham-bold text-5xl  text-white">Welcome</Text>
                   <View className="flex-row gap-2">
-                    <Text className="font-poppins text-6xl font-bold text-white">to</Text>
-                    <Text className="font-poppins text-7xl font-bold text-yellow_orange">
-                      Butuan
-                    </Text>
+                    <Text className="font-gotham-bold text-6xl  text-white">to</Text>
+                    <Text className="text-greenApple font-gotham-black text-7xl ">Butuan</Text>
                   </View>
                 </View>
               </View>
@@ -53,13 +49,12 @@ export default function Home() {
             <Text className="text-md w-2/3 font-poppins text-white">
               Explore these wonderful tourist spots!
             </Text>
-            <PressableText href="/attractions">Test</PressableText>
+            <PressableText href="/attractions">View All</PressableText>
           </View>
           <CustomCarousel items={attractions} />
         </View>
-        {/* Events Section */}
-        <View className="   bg-white" />
-    
+        <View className=" bg-white" />
+
         <Events />
       </ScrollView>
     </Container>
