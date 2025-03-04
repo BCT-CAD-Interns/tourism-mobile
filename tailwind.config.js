@@ -6,12 +6,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        navy_blue: '#080852',
-        yellow_orange: '#FEC107',
+        deepCerulean: '#11578F',
+        vividSkyBlue: '#20A8E0',
+        greenApple: '#6EBC45',
+        purpleHeart: '#5F2E84',
       },
       fontFamily: {
         poppins: ['Poppins-Regular', 'Poppins-Medium', 'Poppins-Bold'],
         prompt: ['Prompt-Regular', 'Prompt-Medium', 'Prompt-Bold'],
+        'gotham-bold': ['Gotham-Bold'],
+        'gotham-book': ['Gotham-Book'],
+        'gotham-black': ['Gotham-Black'],
       },
     },
   },

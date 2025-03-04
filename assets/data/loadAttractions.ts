@@ -1,12 +1,26 @@
 import attractionsData from '~/assets/data/attractions.json';
 import Pin from '~/assets/images/Maps/location pin-1.svg';
 
+interface AttractionData {
+  id: string;
+  name: string;
+  description: string;
+  images: string;
+  location: string;
+  latitude: string;
+  longitude: string;
+  category: string;
+}
+
 export interface CarouselItem {
   id: string;
   title: string;
   description: string;
   location: string;
   imageSource: any;
+  latitude?: string;
+  longitude?: string;
+  category?: string;
 }
 
 const imageMap: Record<string, any> = {
@@ -23,11 +37,14 @@ const imageMap: Record<string, any> = {
 };
 
 export const loadAttractions = (): CarouselItem[] => {
-  return attractionsData.map((attraction) => ({
+  return (attractionsData as AttractionData[]).map((attraction) => ({
     id: attraction.id,
     title: attraction.name,
     description: attraction.description,
     location: attraction.location,
     imageSource: imageMap[attraction.images],
+    latitude: attraction.latitude,
+    longitude: attraction.longitude,
+    category: attraction.category,
   }));
 };

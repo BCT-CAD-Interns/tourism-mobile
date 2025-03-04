@@ -9,6 +9,7 @@ import {
 import { Prompt_400Regular, Prompt_500Medium, Prompt_700Bold } from '@expo-google-fonts/prompt';
 import { Slot, Stack } from 'expo-router';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { fonts } from '~/assets/fonts/theme/fonts';
 
 export const unstable_settings = {
   // Ensure that reloading on `/modal` keeps a back button present.
@@ -24,6 +25,9 @@ export default function RootLayout() {
     'Prompt-Regular': Prompt_400Regular,
     'Prompt-Medium': Prompt_500Medium,
     'Prompt-Bold': Prompt_700Bold,
+    'Gotham-Bold': fonts.GothamBold,
+    'Gotham-Book': fonts.GothamBook,
+    'Gotham-Black': fonts.GothamBlack,
   });
 
   if (!fontsLoaded) return null;

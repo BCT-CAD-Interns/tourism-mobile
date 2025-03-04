@@ -10,14 +10,21 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
-        headerShown: false,
-        tabBarActiveBackgroundColor: '#97978f',
+        tabBarActiveBackgroundColor: '#c0c0c0',
         tabBarInactiveBackgroundColor: '#fff',
         tabBarActiveTintColor: '#fff',
         tabBarInactiveTintColor: '#808080',
         tabBarStyle: {
-          paddingBottom: 2,
+          padding: 2,
+          height: 60,
+          width: '100%',
+          alignSelf: 'center',
+          borderRadius: 10,
+          backgroundColor: '#fff',
+          borderWidth: 1,
+          borderColor: '#000',
         },
+        headerShown: false,
         tabBarLabelStyle: {
           fontSize: 12,
           fontFamily: 'Poppins',
@@ -43,13 +50,12 @@ export default function TabLayout() {
         options={{
           title: 'Map',
           tabBarIcon: ({ color }) => (
-            <View className="rounded-full bg-navy_blue p-1">
+            <View className=" bg-navy_blue p-1">
               <Maps fill="white" width={24} height={24} />
             </View>
           ),
           tabBarItemStyle: {
-            backgroundColor: '#080852',
-
+            backgroundColor: '#20A8E0',
             borderRadius: 10,
           },
         }}
@@ -66,6 +72,12 @@ export default function TabLayout() {
         options={{
           title: 'Travel Tips',
           tabBarIcon: ({ color }) => <Tips fill={color} width={24} height={24} />,
+        }}
+      />
+      <Tabs.Screen
+        name="(attractions)"
+        options={{
+          href: null,
         }}
       />
     </Tabs>

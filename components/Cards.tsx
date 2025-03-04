@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity, ViewStyle } from 'react-native';
-import Pin from '~/assets/images/Maps/location pin-1.svg';
+import Pin from '~/assets/images/Maps/Vector.svg';
 
 type TouristSpotCardProps = {
   imageSource: any; // or ImageSourcePropType
@@ -25,29 +25,37 @@ export function TouristSpotCard({
       <Image source={imageSource} className="h-56 w-full rounded-xl object-cover" />
 
       {/* Card Body */}
-      <View className="p-4">
+      <View className="py-2">
         {/* Location */}
 
         {/* Title */}
-        <Text className="font-Poppins-Black mt-1 font-poppins  text-2xl text-navy_blue ">
+        <Text
+          className=" font-gotham-black mt-1  text-2xl text-navy_blue "
+          ellipsizeMode="tail"
+          numberOfLines={1}>
           {title}
         </Text>
-        <View className="flex-row items-center">
-          <Pin className="h-8 w-8" fill={'#000'} />
-          <Text className="text-sm text-gray-500" ellipsizeMode="tail" numberOfLines={1}>
+        <View className="flex-row items-center gap-1">
+          <Pin className="h-10 w-10" stroke="#fff" />
+          <Text
+            className="font-gotham-book text-sm text-gray-500"
+            ellipsizeMode="tail"
+            numberOfLines={1}>
             {location}
           </Text>
         </View>
         {/* Description */}
         <Text
-          className="mt-2 truncate text-sm text-gray-600 "
+          className="mt-2 truncate font-poppins text-sm text-gray-600"
           ellipsizeMode="tail"
-          numberOfLines={2}>
+          numberOfLines={4}>
           {description}
         </Text>
 
         {/* Read More Button */}
-        <TouchableOpacity onPress={onPress} className="mt-4 w-full rounded-md bg-blue-500 p-2">
+        <TouchableOpacity
+          onPress={onPress}
+          className="bg-greenApple mt-4 w-1/3 self-end rounded-md p-2">
           <Text className="text-center text-sm font-semibold text-white">Read More</Text>
         </TouchableOpacity>
       </View>
